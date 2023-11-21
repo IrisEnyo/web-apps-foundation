@@ -1,0 +1,35 @@
+/* ========== general styling ========== */
+
+*,
+html,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* ========== spezific styling ========== */
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input {
+  font-size: 2rem;
+  font-family: monospace;
+  width: 13rem;
+}
+
+.button {
+  font-family: monospace;
+  font-size: 2rem;
+  cursor: pointer;
+}
