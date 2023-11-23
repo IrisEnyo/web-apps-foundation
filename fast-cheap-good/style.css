@@ -1,0 +1,40 @@
+/* ========== generel styling ========== */
+
+*,
+::after,
+::before,
+html {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: monospace;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem 1rem;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  height: 2rem;
+  width: 2rem;
+}
+
+label {
+  font-size: 4rem;
+}
