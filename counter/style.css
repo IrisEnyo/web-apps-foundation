@@ -1,0 +1,71 @@
+*,
+::after,
+::before,
+html {
+  box-sizing: border-box;
+  display: flow-root;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  font-family: monospace;
+}
+
+header {
+  background-color: gold;
+  position: relative;
+}
+
+h1,
+p {
+  margin: 0;
+  margin-left: 1rem;
+}
+
+h1 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+button {
+  border: solid black;
+  font-size: 2rem;
+  position: absolute;
+  top: 2rem;
+  right: 1.5rem;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 white;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+main {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(gold, gold);
+  background-size: var(--counter, 0%) 100%;
+  background-repeat: no-repeat;
+  transition: 0.25s background-size ease-in-out;
+}
+
+label {
+  font-size: 8rem;
+  margin: 0;
+}
